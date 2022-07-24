@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+        <h1>Content goes here.</h1>
+
+        <p>{{today}}</p>
+        <a href="{% url 'notes.list' %}" class="btn btn-primary">Submit</a>
+{% endblock %}
